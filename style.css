@@ -28,7 +28,7 @@ body{
 
 
 .details{
-    max-width: 420px;
+    max-width: 650px;
     display: flex;
     gap: 30px;
     flex-direction: column;
