@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.b{
+    border: 1px solid black;
+}
+
+.App{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100vh;
+}
