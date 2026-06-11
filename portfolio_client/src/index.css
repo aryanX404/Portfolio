@@ -1,7 +1,13 @@
-:root{
-    --text-color: #ffffff;
-    --soft-grey: #B6B4BD;
-    --background-color: #151312;
-    --lite-background-color: #1c1a19;
-   
+:root {
+  --soft-grey: #b6b4bd;
+
+  --lite-background-color: #1c1a19;
+  --bg-dark: #111111;
+  --bg-card: #ffffff;
+
+  --accent-orange: #ef6c35;
+  --accent-lime: #c5ff4c;
+
+  --text-main: #ffffff;
+  --text-muted: #a0a0a0;
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
-import Profile from './components/Profile'
+import Navbar from './components/Navbar/Navbar'
+import Profile from './components/Profile/Profile'
 
 function App() {
   const [count, setCount] = useState(0)
