@@ -3,18 +3,20 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 40px;
-    margin:40px auto;
+    gap: 70px;
+    margin:auto auto;
+    padding: 10px 0px;
 }
 
 .profileLeft{
-    background-color: var(--bg-card);
-    color: var(--bg-dark);
-    height: 580px;
+    /* background-color: var(--bg-card); */
+    color: white;
+    height: 560px;
     border-radius: 20px;
-    width: 344px;
+    width: 300px;
     display: flex;
-    gap: 60px;
+    gap: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.075);
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -51,7 +53,7 @@
 
 .data p{
     max-width:300px;
-    font-size:18px;
+    font-size:14px;
     text-align: center;
 }
 
@@ -65,6 +67,23 @@
     color: var(--accent-orange);
 }
 
+.data ul li:hover{
+    cursor: pointer;
+}
+
+.data ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data ul li a:hover {
+  color: var(--blue);
+}
+
+
 
 .profileRight{
     display: flex;
@@ -73,25 +92,27 @@
     justify-content: flex-start;
     margin-right: auto;
     height: 800px;
-    gap: 40px;
+    gap: 30px;
 }
 
-.profileRight h1{
-    font-size: 100px;
-    line-height: 80px
+.title{
+    font-size: 90px;
+    line-height: 90px;
+    display: inline-block;
     
 }
 
-.profileRight h1 span{
-    font-size: 95px;
+.sub_title{
+    font-size: 85px;
     color: var(--text-muted);
+    display: inline-block;
     
 }
 
 
 .profileRight p{
-    max-width:480px;
-    font-size: 16px;
+    max-width:440px;
+    font-size: 14px;
     text-align: left;
     font-weight:light;
     color:var(--soft-grey)
@@ -116,15 +137,41 @@
 }
 
 .card{
-    width: 300px;
-    border-radius: 20px;
-    height: 200px;
+    width: 280px;
+    border-radius: 8px;
+    height: 180px;
+    padding:30px 25px;
+    /* background: url('../../assets/img2.jpeg'); */
+    background-color: var(--accent-orange);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.cardContainer > .card:nth-child(1){
     background-color: var(--accent-orange);
 }
 
-.cardContainer > p:nth-child(1){
-    background-color: red;
+.cardContainer > .card:nth-child(2){
+    background-color: lightgreen;
 }
 
+.card > :nth-child(3){
+    align-self: flex-end;
+    border: 1px solid white;
+    padding: 0px 6px;
+    border-radius: 4px;
+    transition: transform 0.3s ease, color 0.3s ease;
 
+}
+
+.card > :nth-child(3):hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--accent-orange);
+    border: none;
+}
 

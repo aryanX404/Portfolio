@@ -1,13 +1,15 @@
 :root {
   --soft-grey: #b6b4bd;
 
-  --lite-background-color: #1c1a19;
+  --lite-background-color: #1c1a1994;
   --bg-dark: #111111;
   --bg-card: #ffffff;
 
   --accent-orange: #ef6c35;
   --accent-lime: #c5ff4c;
 
+  --blue : #00a2ff;
+
   --text-main: #ffffff;
-  --text-muted: #a0a0a0;
+  --text-muted: #a0a0a042;
 }

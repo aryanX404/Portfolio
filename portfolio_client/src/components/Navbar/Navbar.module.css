@@ -8,17 +8,39 @@
 .list {
   display: flex;
   flex-direction: row;
-  width: 292px;
-  border-radius: 8px;
-  height: 48px;
+  width: 240px;
+  border-radius: 15px;
+  height: 40px;
   margin-top: 20px;
+  margin-bottom:30px;
   align-items: center;
   background: var(--lite-background-color);
-  padding: 20px;
+  padding: 0px 20px;
   list-style: none;
   justify-content: space-between;
 }
 
-.list li{
+.list li {
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.list li a {
+  color: var(--soft-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.active a {
+  color: var(--blue);
+}
+
+.list li:hover a {
+  color: var(--blue);
+}
+
+html {
+  scroll-behavior: smooth;
 }
