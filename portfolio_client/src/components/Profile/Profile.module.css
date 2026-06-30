@@ -34,13 +34,14 @@
 }
 
 .photo img {
-  height: 284px;
-  border: 1px solid rgba(255, 255, 255, 0.075);
-  width: 240px;
-  border-radius: 10px;
-  border-radius: 10px;
+    width: 250px;      /* Keeps your preferred width */
+    height: 294px;     /* Keeps your preferred height */
+    object-fit: cover; /* This is the key fix for compression */
+    object-position: center; /* Ensures the middle of the photo is focused */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    display: block;    /* Removes potential gaps below the image */
 }
-
 .photo h1 {
   font-size: 36px;
   text-align: center;
