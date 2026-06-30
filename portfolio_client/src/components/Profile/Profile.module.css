@@ -1,3 +1,4 @@
+
 .profile {
   display: flex;
   flex-direction: row;
@@ -13,11 +14,9 @@
   color: white;
   height: 560px;
   border-radius: 10px;
-
   width: 300px;
   display: flex;
   gap: 25px;
-
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -90,31 +89,28 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  width: 100%;
+  width: 600px;
   justify-content: flex-start;
   margin-right: auto;
-  height: 800px;
+  height: 100%;
   gap: 30px;
 }
 
 .title {
-  font-size: clamp(38px, 7vw, 90px);
+  font-size: clamp(45px, 7vw, 90px);
   line-height: 1;
-  /* font-size: 90px;
-  line-height: 90px; */
   display: inline-block;
 }
 
 .sub_title {
-  font-size: clamp(34px, 6.5vw, 85px);
-  /* font-size: 85px; */
+  font-size: clamp(38px, 6.5vw, 85px);
   color: var(--text-muted);
   display: inline-block;
 }
 
 .profileRight p {
-  max-width: 440px;
-  font-size: 14px;
+  max-width: 540px;
+  font-size: clamp(8px, 1.5vw, 16px);
   text-align: left;
   font-weight: light;
   color: var(--soft-grey);
@@ -123,14 +119,17 @@
 .experience {
   display: flex;
   gap: 40px;
+  width: max-content;
 }
 
+
 .counts h1 {
-  font-size: 60px;
+  font-size: clamp(25px, 6.5vw, 85px);
 }
 
 .counts p {
-  font-size: 12px;
+  font-size: clamp(5px, 1vw, 12px);
+  width: max-content;
 }
 
 .cardContainer {
@@ -184,18 +183,9 @@
   .profile {
     gap: 50px;
   }
-  .title {
-    font-size: 75px;
-    line-height: 75px;
-  }
-  .sub_title {
-    font-size: 70px;
-  }
+
   .experience {
     gap: 30px;
-  }
-  .counts h1 {
-    font-size: 50px;
   }
 
   .card {
@@ -215,9 +205,18 @@
   }
   .profileRight {
     margin: auto;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
+
+  .sub_para{
+    text-align: center;
+    width: 400px;
+  }
+  
+
+  
 }
 
 @media (max-width: 810px) {
@@ -225,5 +224,19 @@
     margin: auto;
     width: 100%;
   }
+
+  .cardContainer{
+    flex-direction: column;
+  }
+
+  .sub_para{
+    width: 300px;
+  }
 }
 
+
+@media(max-width:360px){
+  .sub_para{
+    width: 250px;
+  }
+}

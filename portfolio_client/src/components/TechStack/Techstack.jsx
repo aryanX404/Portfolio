@@ -66,7 +66,7 @@ export default function TechStack() {
         }}
         className={styles.heading}
       >
-        <span className={styles.bright}>TECH</span>
+        <span className={styles.bright}>TECH </span>
         <span className={styles.dim}> STACK</span>
       </motion.h2>
 

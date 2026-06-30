@@ -123,6 +123,7 @@ const Profile = () => {
           transition={{
             delay: 0.2,
           }}
+          className={styles.sub_para}
         >
           Passionate about creating intuitive and engaging user experiences.
           Specialize in transforming ideas into beautifully crafted products.
