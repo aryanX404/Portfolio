@@ -18,12 +18,12 @@ const Navbar = () => {
       icon: <MdOutlineBusinessCenter />,
     },
     {
-      id: "skills",
-      icon: <FiTool />,
-    },
-    {
       id: "projects",
       icon: <FaRegFolder />,
+    },
+    {
+      id: "skills",
+      icon: <FiTool />,
     },
     {
       id: "contact",
@@ -56,7 +56,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={`${styles.navbar} container`}>
+    <div className={`${styles.navbar}`}>
       <ul className={styles.list}>
         {navItems.map((item) => (
           <li

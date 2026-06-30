@@ -32,11 +32,11 @@ const Profile = () => {
       >
         <div className={styles.photo}>
           <img src={profileImage} alt="photo" />
-          <h1>Aryan Singh</h1>
+          <h1>ARYAN SINGH</h1>
         </div>
         <div className={styles.data}>
           <p>
-            A Software Engineer who has developed countless innovative
+            A Software Engineer who is developing countless innovative
             solutions.
           </p>
           <ul>

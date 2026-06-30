@@ -24,7 +24,7 @@ const Footer = () => {
     >
       <div className={styles.top}>
         <div className={styles.brand}>
-          <h2>Aryan Singh</h2>
+          <h2>ARYAN SINGH</h2>
           <p>Full Stack Developer</p>
         </div>
 

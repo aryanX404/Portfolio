@@ -1,8 +1,10 @@
 .footer {
-  margin-top: 120px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   padding: 60px 0 30px;
   background-color: var(--bg-dark);
-  border-top: 1px solid rgba(255,255,255,.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .top {
@@ -38,7 +40,7 @@
 .links a {
   text-decoration: none;
   color: var(--soft-grey);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .links a:hover {
@@ -66,7 +68,7 @@
 
   font-size: 1.2rem;
 
-  transition: .35s;
+  transition: 0.35s;
 }
 
 .socials a:hover {
@@ -78,10 +80,9 @@
 }
 
 .bottom {
-
   margin-top: 60px;
 
-  border-top: 1px solid rgba(255,255,255,.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 
   padding-top: 25px;
 
@@ -101,33 +102,25 @@
 
   color: var(--soft-grey);
 
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-@media(max-width:900px){
+@media (max-width: 810px) {
+  .top {
+    flex-direction: column;
 
-.top{
+    text-align: center;
+  }
 
-flex-direction:column;
+  .links {
+    flex-wrap: wrap;
 
-text-align:center;
+    justify-content: center;
+  }
 
-}
+  .bottom {
+    flex-direction: column;
 
-.links{
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-}
-
-.bottom{
-
-flex-direction:column;
-
-text-align:center;
-
-}
-
+    text-align: center;
+  }
 }

@@ -1,8 +1,15 @@
 .navbar {
   margin: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-main);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--bg-dark);
 }
 
 .list {
@@ -12,7 +19,7 @@
   border-radius: 15px;
   height: 40px;
   margin-top: 20px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   align-items: center;
   background: var(--lite-background-color);
   padding: 0px 20px;
@@ -43,4 +50,8 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 810px) {
+ 
 }
