@@ -36,7 +36,9 @@ const Profile = () => {
         </div>
         <div className={styles.data}>
           <p>
-            Full-stack developer building real products with React & Node. Currently focused on freelance web development for startups and small businesses.
+            Full-stack developer building real products with React & Node.
+            Currently focused on freelance web development for startups and
+            small businesses.
           </p>
           <ul>
             <li>
@@ -124,15 +126,15 @@ const Profile = () => {
           }}
           className={styles.sub_para}
         >
-          Full-stack developer (React, Node, MongoDB) helping startups and small businesses ship real products, not just prototypes.
+          Full-stack developer (React, Node, MongoDB) helping startups and small
+          businesses ship real products, not just prototypes.
         </motion.p>
         <div className={styles.experience}>
           <div className={styles.counts}>
             <h1>2</h1>
             <p>
               YEARS LEARNING
-              <br />
-              & BUILDING
+              <br />& BUILDING
             </p>
           </div>
           <div className={styles.counts}>
@@ -172,7 +174,9 @@ const Profile = () => {
               EXPLORE <br />
               PROJECTS
             </div>
-            <div className="redirect-btn">
+            <div className="redirect-btn"
+            onClick={() => (window.location.href = "/#projects")}
+            >
               <MdOutlineArrowOutward />
             </div>
           </motion.div>
@@ -190,8 +194,14 @@ const Profile = () => {
               {" "}
               <SiCloudflareworkers />
             </div>
-            <div className="card-content">LET'S <br/>TALK</div>
-            <div className="redirect-btn">
+            <div className="card-content">
+              LET'S <br />
+              TALK
+            </div>
+            <div
+              className="redirect-btn"
+              onClick={() => (window.location.href = "/#contact")}
+            >
               <MdOutlineArrowOutward />
             </div>
           </motion.div>

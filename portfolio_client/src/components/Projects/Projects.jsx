@@ -14,18 +14,25 @@ const Projects = () => {
     {
       id: 1,
       title: "Note Store-Study Smarter",
-      description: "A notes-sharing platform built for college students to upload, discover, and access study notes in one place.",
+      description:
+        "A notes-sharing platform built for college students to upload, discover, and access study notes in one place.",
       technologies: ["React", "Node.js", "MongoDB"],
       link: "https://notestore-frontend.onrender.com/",
       image: notestore,
       deployed: true,
     },
-    
+
     {
-      id:2,
+      id: 2,
       title: "Task Management App",
       description: "Collaborative task manager with real-time updates.",
-      technologies: ["React", "CSS Modules", "Framer Motion","Node.js","MongoDB"],
+      technologies: [
+        "React",
+        "CSS Modules",
+        "Framer Motion",
+        "Node.js",
+        "MongoDB",
+      ],
       link: "#",
       image: "",
       deployed: false,
@@ -33,8 +40,9 @@ const Projects = () => {
     {
       id: 3,
       title: "To-Do List App",
-      description: "List your tasks and manage your time effectively with this simple to-do list application.",
-      technologies: ["React", "Node.js", "Tailwind CSS","MongoDB"],
+      description:
+        "List your tasks and manage your time effectively with this simple to-do list application.",
+      technologies: ["React", "Node.js", "Tailwind CSS", "MongoDB"],
       link: "#",
       image: "",
       deployed: false,
@@ -103,9 +111,16 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                
-                <a href={project.link} className={styles.projectLink}>
-                  {project.deployed? "View Project" : "🟡 Deployment in progress"}
+
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.projectLink}
+                >
+                  {project.deployed
+                    ? "View Project"
+                    : "🟡 Deployment in progress"}
                 </a>
               </div>
             </motion.div>

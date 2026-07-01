@@ -148,7 +148,7 @@
 }
 
 .card {
-  width: 240px;
+  width: 290px;
   border-radius: 8px;
   height: 160px;
   padding: 20px 25px;
@@ -170,7 +170,7 @@
 
 
 .cardContainer > .card:nth-child(1) {
-  background-color: lightgreen;
+  background-color: rgb(38, 130, 38);
 }
 
 .cardContainer > .card:nth-child(2) {
