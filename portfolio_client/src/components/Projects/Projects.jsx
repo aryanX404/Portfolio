@@ -13,27 +13,31 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React and Node.js",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Note Store-Study Smarter",
+      description: "A notes-sharing platform built for college students to upload, discover, and access study notes in one place.",
+      technologies: ["React", "Node.js", "MongoDB"],
       link: "https://notestore-frontend.onrender.com/",
       image: notestore,
+      deployed: true,
     },
+    
     {
-      id: 4,
-      title: "Portfolio Website",
-      description: "Modern responsive portfolio with smooth animations",
-      technologies: ["React", "CSS Modules", "Framer Motion"],
-      link: "#",
-      image: "",
-    },
-    {
-      id: 2,
+      id:2,
       title: "Task Management App",
-      description: "Collaborative task manager with real-time updates",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
+      description: "Collaborative task manager with real-time updates.",
+      technologies: ["React", "CSS Modules", "Framer Motion","Node.js","MongoDB"],
       link: "#",
       image: "",
+      deployed: false,
+    },
+    {
+      id: 3,
+      title: "To-Do List App",
+      description: "List your tasks and manage your time effectively with this simple to-do list application.",
+      technologies: ["React", "Node.js", "Tailwind CSS","MongoDB"],
+      link: "#",
+      image: "",
+      deployed: false,
     },
   ];
 
@@ -99,8 +103,9 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+                
                 <a href={project.link} className={styles.projectLink}>
-                  View Project →
+                  {project.deployed? "View Project" : "🟡 Deployment in progress"}
                 </a>
               </div>
             </motion.div>

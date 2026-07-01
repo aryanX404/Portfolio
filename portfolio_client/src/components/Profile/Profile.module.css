@@ -97,13 +97,13 @@
 }
 
 .title {
-  font-size: clamp(45px, 7vw, 90px);
+  font-size: clamp(40px, 7vw, 70px);
   line-height: 1;
   display: inline-block;
 }
 
 .sub_title {
-  font-size: clamp(38px, 6.5vw, 85px);
+  font-size: clamp(30px, 6.5vw, 55px);
   color: var(--text-muted);
   display: inline-block;
 }
@@ -118,17 +118,27 @@
 
 .experience {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   width: max-content;
+}
+
+.counts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  padding: 5px 15px;
+  border-radius: 10px;
 }
 
 
 .counts h1 {
-  font-size: clamp(25px, 6.5vw, 85px);
+  font-size: clamp(25px, 6.5vw, 55px);
+  text-align: center;
 }
 
 .counts p {
-  font-size: clamp(5px, 1vw, 12px);
+  font-size: clamp(5px, 1vw, 14px);
   width: max-content;
 }
 
@@ -138,10 +148,10 @@
 }
 
 .card {
-  width: 280px;
+  width: 240px;
   border-radius: 8px;
-  height: 180px;
-  padding: 30px 25px;
+  height: 160px;
+  padding: 20px 25px;
   /* background: url('../../assets/img2.jpeg'); */
   background-color: var(--accent-orange);
   display: flex;
@@ -152,12 +162,19 @@
   flex-direction: column;
 }
 
+.card:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+
 .cardContainer > .card:nth-child(1) {
-  background-color: var(--accent-orange);
+  background-color: lightgreen;
 }
 
 .cardContainer > .card:nth-child(2) {
-  background-color: lightgreen;
+  background-color:var(--accent-orange);
 }
 
 .card > :nth-child(3) {

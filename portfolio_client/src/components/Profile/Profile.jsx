@@ -36,8 +36,7 @@ const Profile = () => {
         </div>
         <div className={styles.data}>
           <p>
-            A Software Engineer who is developing countless innovative
-            solutions.
+            Full-stack developer building real products with React & Node. Currently focused on freelance web development for startups and small businesses.
           </p>
           <ul>
             <li>
@@ -102,7 +101,7 @@ const Profile = () => {
             }}
             className={styles.title}
           >
-            FULL STACK{" "}
+            LETS BUILD YOUR{" "}
           </motion.span>
           <br />
           <motion.span
@@ -115,7 +114,7 @@ const Profile = () => {
             }}
             className={styles.sub_title}
           >
-            DEVELOPER
+            NEXT WEB APP
           </motion.span>
         </h1>
         <motion.p
@@ -125,32 +124,31 @@ const Profile = () => {
           }}
           className={styles.sub_para}
         >
-          Passionate about creating intuitive and engaging user experiences.
-          Specialize in transforming ideas into beautifully crafted products.
+          Full-stack developer (React, Node, MongoDB) helping startups and small businesses ship real products, not just prototypes.
         </motion.p>
         <div className={styles.experience}>
           <div className={styles.counts}>
-            <h1>5+</h1>
+            <h1>2</h1>
             <p>
-              YEARS OF
+              YEARS LEARNING
               <br />
-              EXPERIENCE
+              & BUILDING
             </p>
           </div>
           <div className={styles.counts}>
-            <h1>10+</h1>
+            <h1>2</h1>
             <p>
+              LIVE DEPLOYED
+              <br />
               PROJECTS
-              <br />
-              COMPLETED
             </p>
           </div>
           <div className={styles.counts}>
-            <h1>8+</h1>
+            <h1>4</h1>
             <p>
-              WORLDWIDE
+              APPS BUILT
               <br />
-              CLIENTS
+              (2 DEPLOYED, 2 IN PROGRESS)
             </p>
           </div>
         </div>
@@ -192,7 +190,7 @@ const Profile = () => {
               {" "}
               <SiCloudflareworkers />
             </div>
-            <div className="card-content">EXPERIENCE</div>
+            <div className="card-content">LET'S <br/>TALK</div>
             <div className="redirect-btn">
               <MdOutlineArrowOutward />
             </div>

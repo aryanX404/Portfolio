@@ -25,9 +25,9 @@ const About = () => {
             }}
             className={styles.heading}
           >
-            Passionate About Building
-            <br />
-            <span>Modern Web Experiences</span>
+            I Build What I Learn
+            
+            
           </motion.h2>
 
           <motion.p
@@ -40,10 +40,12 @@ const About = () => {
             }}
             className={styles.description}
           >
-            I'm Aryan Singh, a Mechanical Engineering undergraduate at IIITDM
-            Jabalpur with a strong interest in Full Stack Web Development. I
-            enjoy turning ideas into responsive, user-friendly applications
-            using modern technologies.
+            I'm Aryan — a full-stack developer who builds fast, functional web
+            applications end-to-end, from database to deployment. I specialize
+            in the MERN stack (MongoDB, Express, React, Node.js), and I learn
+            fast: in under 2 years I've gone from writing my first line of code
+            to shipping Study Smarter, a real platform currently used by
+            students to share and access notes.
           </motion.p>
 
           <motion.p
@@ -56,10 +58,7 @@ const About = () => {
             }}
             className={styles.description}
           >
-            I specialize in building MERN applications while constantly learning
-            new technologies and improving my problem-solving skills. My goal is
-            to create products that are both visually appealing and highly
-            functional.
+            I'm currently pursuing a B.Tech at IIITDM Jabalpur, but my focus is building things that work — not just studying theory. If you need a functional, well-built web app without the overhead of a big agency, that's exactly what I do.
           </motion.p>
         </div>
 
@@ -76,7 +75,7 @@ const About = () => {
           >
             <h3>Education</h3>
 
-            <span>B.Tech Mechanical Engineering</span>
+            <span>Bachelor of Technology</span>
 
             <p>IIITDM Jabalpur</p>
 
